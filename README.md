@@ -1,7 +1,6 @@
 # LLM-Detect-AI-Generated-Text
 
 ## ARCHIVE CONTENTS
-kaggle_model.tgz          : original code, training data, etc<br/>
 prepare_data.py           : combine data from different sources <br/>
 tokenizer_data.py         : transform the data by TF-IDF<br/>
 model_ensemble.py         : create ensemble model<br/>
