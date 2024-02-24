@@ -1,6 +1,6 @@
 # LLM-Detect-AI-Generated-Text
 
-#ARCHIVE CONTENTS
+# ARCHIVE CONTENTS
 kaggle_model.tgz          : original code, training data, etc<br/>
 prepare_data.py           : combine data from different sources <br/>
 tokenizer_data.py         : transform the data by TF-IDF<br/>
@@ -35,7 +35,7 @@ cd ..<br/>
 
 # Train and Predict
 
-# If the number of data  in the test.csv is less than 5, the min_df is set to 1 and the model is not trained which only used for debugging. Conversely, when the number of data in test.csv is greater than 5, the min_df is set to 2 and the model will be trained and will generate prediction results. 
+If the number of data  in the test.csv is less than 5, the min_df is set to 1 and the model is not trained which only used for debugging. Conversely, when the number of data in test.csv is greater than 5, the min_df is set to 2 and the model will be trained and will generate prediction results. <br/>
 python train_predict.py <br/>
 
 or just folk the following code and run it to get submission<br/>
